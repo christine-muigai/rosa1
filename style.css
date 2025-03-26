@@ -1,9 +1,50 @@
 body {
-    background-image: url("/home/christine/Pictures/6-rose-watercolor-painting.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: violet;
+}
+
+header {
+  background-color: #ff4d6d;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+#products {
+  margin: 20px;
+}
+
+#product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  background: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: palevioletred;
+  color: white;
+  padding: 10px;
+}
+
   

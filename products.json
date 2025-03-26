@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "name": "Red Roses",
+            "price": "$10 per dozen",
+            "image": "https://via.placeholder.com/200/FF0000/FFFFFF?text=Red+Roses"
+        },
+        {
+            "name": "Pink Roses",
+            "price": "$12 per dozen",
+            "image": "https://via.placeholder.com/200/FFC0CB/FFFFFF?text=Pink+Roses"
+        },
+        {
+            "name": "White Roses",
+            "price": "$11 per dozen",
+            "image": "https://via.placeholder.com/200/FFFFFF/000000?text=White+Roses"
+        }
+    ]
+}
