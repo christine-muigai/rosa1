@@ -8,12 +8,12 @@
         {
             "name": "Pink Roses",
             "price": "$12 per dozen",
-            "image": "https://via.placeholder.com/200/FFC0CB/FFFFFF?text=Pink+Roses"
+            "image": "/home/christine/Pictures/rose-3585489_960_720.jpg"
         },
         {
             "name": "White Roses",
             "price": "$11 per dozen",
-            "image": "https://via.placeholder.com/200/FFFFFF/000000?text=White+Roses"
+            "image": ""
         }
     ]
 }
