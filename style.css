@@ -3,7 +3,23 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  background-image: url('images/istockphoto-1254177449-170667a.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white; 
 }
+
+.content {
+  position: relative;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
 
 header {
   background-color: palevioletred;
