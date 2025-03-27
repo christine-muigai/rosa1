@@ -3,17 +3,17 @@
         {
             "name": "Red Roses",
             "price": "$10 per dozen",
-            "image": "/home/christine/Pictures/United-Selections-Rose-Madam-Red.jpg"
+            "image": "https://unsplash.com/photos/red-roses-in-bloom-during-daytime-90srujjpqP4"
         },
         {
             "name": "Pink Roses",
             "price": "$12 per dozen",
-            "image": "/home/christine/Pictures/rose-3585489_960_720.jpg"
+            "image": ""
         },
         {
             "name": "White Roses",
             "price": "$11 per dozen",
-            "image": "/home/christine/Pictures/longstem.webp"
+            "image": ""
         }
     ]
 }

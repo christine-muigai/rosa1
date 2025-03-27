@@ -13,14 +13,19 @@
     </header>
 
     <section id="products">
-        <h2>Our Roses</h2>
+        <h2>Available Roses</h2>
         <div id="product-list"></div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 RosaHeaven. All rights reserved.</p>
-    </footer>
-
-    <script src="index.js"></script>
-</body>
-</html>
+    <section id="order-form">
+        <h2>Place Your Order</h2>
+        <form id="orderForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <select id="roseSelection">
+                <option value="" disabled selected>Select a Rose</option>
+            </select>
+            <input type="number" id="quantity" placeholder="Quantity" required>
+            <button type="submit">Submit Order</button>
+        </form>
+        </section>

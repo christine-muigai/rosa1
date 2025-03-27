@@ -1,82 +1,91 @@
 body {
   font-family: Arial, sans-serif;
-  text-align: center;
   margin: 0;
   padding: 0;
-  background-color: #f4e1ff; 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  background-color: #f8f8f8;
+  text-align: center;
 }
 
+
 header {
-  background-color: #ff4d6d;
+  background-color: #d63384;
   color: white;
   padding: 20px;
   font-size: 24px;
-  font-weight: bold;
-  width: 100%;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #products {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  padding: 30px 0;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #product-list {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
-  max-width: 80%;
 }
 
 .product {
-  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-  padding: 20px;
-  margin: 10px;
-  border-radius: 15px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  width: 250px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
-  transition: transform 0.3s ease-in-out;
-}
-
-.product:hover {
-  transform: scale(1.05);
+  width: 200px;
 }
 
 .product img {
   width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 10px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 .product h3 {
-  margin: 10px 0;
   font-size: 18px;
-  color: #5a189a;
+  margin: 10px 0;
 }
 
 .product p {
-  font-size: 14px;
-  color: #333;
-}
-
-.product .price {
+  color: #d63384;
   font-weight: bold;
-  font-size: 16px;
-  color: #ff4d6d;
 }
 
+#order-form {
+  margin-top: 30px;
+  padding: 20px;
+  background: white;
+  width: 90%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+#orderForm input, #orderForm select, #orderForm button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
 
-  
+#orderForm button {
+  background-color: #d63384;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#orderForm button:hover {
+  background-color: #b82e72;
+}
+
