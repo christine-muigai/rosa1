@@ -1,23 +1,37 @@
-document.addEventListener("DOMContentLoaded", function() {
-    fetch('products.json')
-        .then(response => response.json())
-        .then(data => {
-            const productList = document.getElementById("product-list");
+fetch('products.json')
+    .then(response => response.json())
+    .then(data => {
+        const productsContainer = document.getElementById('products');
+        const productSelect = document.getElementById('product');
 
-            data.products.forEach(product => {
-                const productDiv = document.createElement("div");
-                productDiv.classList.add("product");
+        data.forEach(product => {
+            const productDiv = document.createElement('div');
+            productDiv.classList.add('product');
+            productDiv.innerHTML = `
+                <h3>${product.name}</h3>
+                <p>Price: $${product.price}</p>
+                <img src="${product.image}" alt="${product.name}" width="100">
+            `;
+            productsContainer.appendChild(productDiv);
 
-                productDiv.innerHTML = `
-                    <img src="${product.image}" alt="${product.name}">
-                    <h3>${product.name}</h3>
-                    <p>${product.price}</p>
-                `;
+            const option = document.createElement('option');
+            option.value = product.name;
+            option.textContent = product.name;
+            productSelect.appendChild(option);
+        });
+    });
 
-                productList.appendChild(productDiv);
-            });
-        })
-        .catch(error => console.error("Error loading products:", error));
+document.getElementById('orderForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    const orderDetails = {
+        product: document.getElementById('product').value,
+        quantity: document.getElementById('quantity').value,
+        email: document.getElementById('email').value,
+        contact: document.getElementById('contact').value
+    };
+
+    console.log('Order Submitted:', orderDetails);
+    alert('Order placed successfully!');
 });
-
 

@@ -1,19 +1,7 @@
-{
-    "products": [
-        {
-            "name": "Red Roses",
-            "price": "$10 per dozen",
-            "image": "https://unsplash.com/photos/red-roses-in-bloom-during-daytime-90srujjpqP4"
-        },
-        {
-            "name": "Pink Roses",
-            "price": "$12 per dozen",
-            "image": ""
-        },
-        {
-            "name": "White Roses",
-            "price": "$11 per dozen",
-            "image": ""
-        }
-    ]
-}
+[
+    { "name": "Red Rose", "price": 10, "image": "https://unsplash.com/photos/red-roses-in-bloom-during-daytime-90srujjpqP4" },
+    { "name": "White Rose", "price": 12, "image": "https://unsplash.com/photos/pink-and-white-rose-in-bloom-during-daytime-yH9J4n_G5fI" },
+    { "name": "Pink Rose", "price": 11, "image": "https://www.istockphoto.com/photo/pink-roses-gm184597358-18015606?searchscope=image%2Cfilm" }
+]
+
+   
