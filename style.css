@@ -1,3 +1,7 @@
+h1 { font-size: 36px; color: #ffd700; }
+h2 { font-size: 28px; color: #a12568; }
+h3 { font-size: 22px; color: #721947; }
+
 #product-list {
   display: flex;
   flex-wrap: wrap;
