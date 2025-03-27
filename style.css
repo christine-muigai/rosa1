@@ -55,56 +55,10 @@ header {
 
 button {
   background-color: #ff6b9e;
-  color: white;
+  color: palevioletred;
   border: none;
   padding: 10px;
   cursor: pointer;
 }
 
-.about-container h1 {
-  text-align: center;
-  color: #ff6b9e; 
-  margin-bottom: 20px;
-  font-size: 2.5em;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
 
-.about-container h2 {
-  color: #ff9eb7; 
-  border-bottom: 2px solid #ff6b9e;
-  padding-bottom: 8px;
-  margin-top: 25px;
-}
-
-.about-container p {
-  margin-bottom: 20px;
-  font-size: 1.1em;
-}
-
-.about-container ul {
-  padding-left: 20px;
-}
-
-.about-container li {
-  margin-bottom: 10px;
-  list-style-type: none;
-  position: relative;
-  padding-left: 25px;
-}
-
-.about-container li::before {
-  content: "🌹"; 
-  position: absolute;
-  left: 0;
-}
-
-@media (max-width: 768px) {
-  .about-container {
-      margin: 20px;
-      padding: 20px;
-  }
-  
-  .about-container h1 {
-      font-size: 2em;
-  }
-}

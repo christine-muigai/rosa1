@@ -1,0 +1,58 @@
+body {
+    background-image: url('images/istockphoto-1269540684-612x612.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    line-height: 1.6;
+}
+
+.about-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 40px auto;
+    max-width: 800px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.about-container h1 {
+    text-align: center;
+    color: #ff6b9e; 
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.about-container h2 {
+    color: #ff9eb7;
+    border-bottom: 2px solid #ff6b9e;
+    padding-bottom: 8px;
+    margin-top: 25px;
+}
+
+.about-container li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding-left: 25px;
+    position: relative;
+}
+
+.about-container li::before {
+    content: "🌹";
+    position: absolute;
+    left: 0;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        margin: 20px;
+        padding: 20px;
+    }
+    .about-container h1 {
+        font-size: 2em;
+    }
+}
